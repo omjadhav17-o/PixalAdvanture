@@ -1,4 +1,4 @@
-# space_invader
+# Pixal Adventure
 
 A new Flutter project.
 

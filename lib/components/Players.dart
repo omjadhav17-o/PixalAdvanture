@@ -1,6 +1,11 @@
 import 'dart:async';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
+import 'package:space_invader/components/Apple%20copy%202.dart';
+import 'package:space_invader/components/Apple%20copy%203.dart';
+import 'package:space_invader/components/Apple%20copy%204.dart';
+import 'package:space_invader/components/Apple%20copy.dart';
+import 'package:space_invader/components/Apple.dart';
 import 'package:space_invader/components/collision.dart';
 import 'package:space_invader/components/customhitbox.dart';
 import 'package:space_invader/components/fruits.dart';
@@ -76,19 +81,35 @@ class Player extends SpriteAnimationGroupComponent
   @override
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
     if (other is Fruit) {
-      other.colliding();
+      // other.colliding();
+    }
+    if (other is Apple1) {
+      other.colliding1();
+    }
+    if (other is Apple2) {
+      other.colliding2();
+    }
+    if (other is Apple3) {
+      other.colliding3();
+    }
+    if (other is Apple4) {
+      other.colliding4();
+    }
+    if (other is Apple5) {
+      other.colliding5();
     }
     super.onCollision(intersectionPoints, other);
   }
 
+ 
   void _loadanimations() {
     idelanimation = _spriteAnimation('Idle');
 
     runninganimatons = _spriteAnimation('Run');
 
-    fallinganimatios = _spriteAnimation('Fall');
+    fallinganimatios = _spriteAnimation1('Fall');
 
-    jumpinganimatios = _spriteAnimation('Jump');
+    jumpinganimatios = _spriteAnimation1('Jump');
 
     //add list of animatios
     animations = {
@@ -110,6 +131,13 @@ class Player extends SpriteAnimationGroupComponent
             amount: 11, stepTime: steptime, textureSize: Vector2.all(32)));
   }
 
+  SpriteAnimation _spriteAnimation1(String character) {
+    return SpriteAnimation.fromFrameData(
+        game.images.fromCache('Main Characters/$name/$character (32x32).png'),
+        SpriteAnimationData.sequenced(
+            amount: 1, stepTime: steptime, textureSize: Vector2.all(32)));
+  }
+
   void upadte_playersate() {
     Players players = Players.idel;
 
@@ -124,10 +152,10 @@ class Player extends SpriteAnimationGroupComponent
     }
 
     //check if falling ,set to fall
-    //if (velocity.y > 0) players = Players.falling;
+    if (velocity.y > 0) players = Players.falling;
 
     // Checks if jumping, set to jumping
-    //if (velocity.y < 0) players = Players.jumping;
+    if (velocity.y < 0) players = Players.jumping;
 
     current = players;
   }

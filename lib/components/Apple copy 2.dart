@@ -5,11 +5,11 @@ import 'package:flame/components.dart';
 import 'package:space_invader/components/customhitbox.dart';
 import 'package:space_invader/components/pixal_adventure.dart';
 
-class Fruit extends SpriteAnimationComponent
+class Apple3 extends SpriteAnimationComponent
     with HasGameRef<PixalAdventure>, CollisionCallbacks {
   final String fruit;
 
-  Fruit({
+  Apple3({
     this.fruit = 'apple1',
     position,
     size,
@@ -57,7 +57,7 @@ class Fruit extends SpriteAnimationComponent
     return super.onLoad();
   }
 
-  void colliding() {
+  void colliding3() {
     if (!collected) {
       animation = SpriteAnimation.fromFrameData(
         game.images.fromCache('Items/Fruits/Collected.png'),
@@ -69,9 +69,10 @@ class Fruit extends SpriteAnimationComponent
       );
 
       collected = true;
-
+      position.x = 272.00;
+      position.y = 48.00;
       animation = SpriteAnimation.fromFrameData(
-        game.images.fromCache('Items/Fruits/apple1.png'),
+        game.images.fromCache('Items/Fruits/apple3.png'),
         SpriteAnimationData.sequenced(
           amount: 1,
           stepTime: stepTime,

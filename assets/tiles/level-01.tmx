@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="78">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="100">
  <tileset firstgid="1" source="pixal adventure.tsx"/>
  <layer id="1" name="Tile Layer 1" width="40" height="23">
   <properties>
@@ -33,23 +33,19 @@
  </layer>
  <objectgroup id="4" name="Spawnpint">
   <object id="4" name="Player" type="Player" x="96" y="240" width="31.9888" height="32.6286"/>
-  <object id="49" name="Orange" type="Fruit" x="64" y="80" width="32" height="32"/>
-  <object id="50" x="64" y="128" width="32" height="32"/>
-  <object id="51" x="64" y="176" width="32" height="32"/>
-  <object id="52" x="208" y="128" width="32" height="32"/>
-  <object id="53" x="240" y="128" width="32" height="32"/>
-  <object id="54" x="224" y="96" width="32" height="32"/>
-  <object id="62" name="Orange" type="Fruit" x="64" y="128" width="32" height="32"/>
-  <object id="63" name="Orange" type="Fruit" x="64" y="176" width="32" height="32"/>
-  <object id="64" name="Kiwi" type="Fruit" x="224" y="96" width="32" height="32"/>
-  <object id="65" type="Fruit" x="208" y="128" width="32" height="32"/>
-  <object id="66" type="Fruit" x="240" y="128" width="32" height="32"/>
-  <object id="71" type="Fruit" x="480" y="176" width="32" height="32"/>
-  <object id="73" name="Kiwi" type="Fruit" x="208" y="128" width="32" height="32"/>
-  <object id="74" name="Kiwi" type="Fruit" x="240" y="128" width="32" height="32"/>
-  <object id="75" name="Apple" type="Fruit" x="352" y="160" width="32" height="32"/>
-  <object id="76" name="Orange" type="Fruit" x="512" y="128" width="32" height="32"/>
-  <object id="77" name="Orange" type="Fruit" x="480" y="176" width="32" height="32"/>
+  <object id="78" name="Apple" type="Fruit" x="64" y="80" width="32" height="32"/>
+  <object id="82" name="Orange" type="Fruit" x="64" y="128" width="32" height="32"/>
+  <object id="83" name="apple1" type="apple1" x="64" y="176" width="32" height="32"/>
+  <object id="84" name="apple2" type="apple2" x="208" y="128" width="32" height="32"/>
+  <object id="85" name="apple5" type="apple5" x="336" y="160" width="32" height="32"/>
+  <object id="86" name="apple3" type="apple3" x="512" y="128" width="32" height="32"/>
+  <object id="87" name="Pineapple" type="Fruit" x="480" y="176" width="32" height="32"/>
+  <object id="88" name="Text" type="Readme" x="192" y="48" width="32" height="32"/>
+  <object id="95" name="Text" type="Readme" x="240" y="48" width="32" height="32"/>
+  <object id="96" name="Text" type="Readme" x="272" y="48" width="32" height="32"/>
+  <object id="97" name="Text" type="Readme" x="320" y="48" width="32" height="32"/>
+  <object id="98" name="Text" type="Readme" x="368" y="48" width="32" height="32"/>
+  <object id="99" name="apple4" type="apple4" x="448" y="240" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="5" name="collision">
   <object id="5" x="32" y="32" width="16" height="304"/>

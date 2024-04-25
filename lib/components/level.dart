@@ -3,6 +3,11 @@ import 'dart:async';
 import 'package:flame/components.dart';
 import 'package:flame/image_composition.dart';
 import 'package:flame_tiled/flame_tiled.dart';
+import 'package:space_invader/components/Apple%20copy%202.dart';
+import 'package:space_invader/components/Apple%20copy%203.dart';
+import 'package:space_invader/components/Apple%20copy%204.dart';
+import 'package:space_invader/components/Apple%20copy.dart';
+import 'package:space_invader/components/Apple.dart';
 import 'package:space_invader/components/Background.dart';
 import 'package:space_invader/components/Players.dart';
 import 'package:space_invader/components/collision.dart';
@@ -75,12 +80,58 @@ class Level extends World with HasGameRef<PixalAdventure> {
           add(player);
           break;
         case 'Fruit':
-          final fruits = Fruit(
-            fruit: 'Apple',
+          var fruits = Fruit(
+            fruit: spawnpoint.name,
             position: Vector2(spawnpoint.x, spawnpoint.y),
             size: Vector2(spawnpoint.width, spawnpoint.height),
           );
+
           add(fruits);
+          break;
+        case 'apple1':
+          var apple1 = Apple1(
+            fruit: spawnpoint.name,
+            position: Vector2(spawnpoint.x, spawnpoint.y),
+            size: Vector2(spawnpoint.width, spawnpoint.height),
+          );
+
+          add(apple1);
+          break;
+        case 'apple2':
+          var apple2 = Apple2(
+            fruit: spawnpoint.name,
+            position: Vector2(spawnpoint.x, spawnpoint.y),
+            size: Vector2(spawnpoint.width, spawnpoint.height),
+          );
+
+          add(apple2);
+          break;
+        case 'apple3':
+          var apple3 = Apple3(
+            fruit: spawnpoint.name,
+            position: Vector2(spawnpoint.x, spawnpoint.y),
+            size: Vector2(spawnpoint.width, spawnpoint.height),
+          );
+
+          add(apple3);
+          break;
+        case 'apple4':
+          var apple4 = Apple4(
+            fruit: spawnpoint.name,
+            position: Vector2(spawnpoint.x, spawnpoint.y),
+            size: Vector2(spawnpoint.width, spawnpoint.height),
+          );
+
+          add(apple4);
+          break;
+        case 'apple5':
+          var apple5 = Apple5(
+            fruit: spawnpoint.name,
+            position: Vector2(spawnpoint.x, spawnpoint.y),
+            size: Vector2(spawnpoint.width, spawnpoint.height),
+          );
+
+          add(apple5);
           break;
         default:
       }

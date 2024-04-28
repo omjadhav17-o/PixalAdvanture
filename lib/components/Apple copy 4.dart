@@ -72,7 +72,7 @@ class Apple5 extends SpriteAnimationComponent
       position.x = 368.00;
       position.y = 48.00;
       animation = SpriteAnimation.fromFrameData(
-        game.images.fromCache('Items/Fruits/apple5.png'),
+        game.images.fromCache('Items/Fruits/rubgy5.png'),
         SpriteAnimationData.sequenced(
           amount: 1,
           stepTime: stepTime,

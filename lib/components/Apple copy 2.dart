@@ -72,7 +72,7 @@ class Apple3 extends SpriteAnimationComponent
       position.x = 272.00;
       position.y = 48.00;
       animation = SpriteAnimation.fromFrameData(
-        game.images.fromCache('Items/Fruits/apple3.png'),
+        game.images.fromCache('Items/Fruits/rubgy3.png'),
         SpriteAnimationData.sequenced(
           amount: 1,
           stepTime: stepTime,

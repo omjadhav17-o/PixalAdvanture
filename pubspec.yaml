@@ -66,6 +66,13 @@ flutter:
     - assets/images/joy/
     - assets/images/Background/
     - assets/images/Items/Fruits/
+    - assets/images/Items/Fruits/rubgy1.png
+    - assets/images/Items/Fruits/rubgy2.png
+    - assets/images/Items/Fruits/rubgy3.png
+    - assets/images/Items/Fruits/rubgy4.png
+    - assets/images/Items/Fruits/rubgy5.png
+    - assets/images/Items/Fruits/find1.png
+    
     - assets/images/Terrain/
     - assets/images/Main Characters/Mask Dude/
     - assets/images/Main Characters/Ninja Frog/

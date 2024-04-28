@@ -6,8 +6,8 @@
    <property name="Background" value="Gray"/>
   </properties>
   <data encoding="csv">
-24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
-24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,204,205,206,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,226,227,228,
 24,24,135,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,134,89,24,24,
 24,24,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,24,24,
 24,24,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,24,24,
@@ -35,17 +35,13 @@
   <object id="4" name="Player" type="Player" x="96" y="240" width="31.9888" height="32.6286"/>
   <object id="78" name="Apple" type="Fruit" x="64" y="80" width="32" height="32"/>
   <object id="82" name="Orange" type="Fruit" x="64" y="128" width="32" height="32"/>
-  <object id="83" name="apple1" type="apple1" x="64" y="176" width="32" height="32"/>
-  <object id="84" name="apple2" type="apple2" x="208" y="128" width="32" height="32"/>
-  <object id="85" name="apple5" type="apple5" x="336" y="160" width="32" height="32"/>
-  <object id="86" name="apple3" type="apple3" x="512" y="128" width="32" height="32"/>
+  <object id="83" name="rubgy1" type="rubgy1" x="64" y="176" width="32" height="32"/>
+  <object id="84" name="rubgy2" type="rubgy2" x="208" y="128" width="32" height="32"/>
+  <object id="85" name="rubgy3" type="rubgy3" x="336" y="160" width="32" height="32"/>
+  <object id="86" name="rubgy5" type="rubgy5" x="512" y="128" width="32" height="32"/>
   <object id="87" name="Pineapple" type="Fruit" x="480" y="176" width="32" height="32"/>
-  <object id="88" name="Text" type="Readme" x="192" y="48" width="32" height="32"/>
-  <object id="95" name="Text" type="Readme" x="240" y="48" width="32" height="32"/>
-  <object id="96" name="Text" type="Readme" x="272" y="48" width="32" height="32"/>
-  <object id="97" name="Text" type="Readme" x="320" y="48" width="32" height="32"/>
-  <object id="98" name="Text" type="Readme" x="368" y="48" width="32" height="32"/>
-  <object id="99" name="apple4" type="apple4" x="448" y="240" width="32" height="32"/>
+  <object id="88" name="find1" type="find1" x="400" y="48" width="192" height="48"/>
+  <object id="99" name="rubgy4" type="rubgy4" x="448" y="240" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="5" name="collision">
   <object id="5" x="32" y="32" width="16" height="304"/>

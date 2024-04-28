@@ -101,7 +101,6 @@ class Player extends SpriteAnimationGroupComponent
     super.onCollision(intersectionPoints, other);
   }
 
- 
   void _loadanimations() {
     idelanimation = _spriteAnimation('Idle');
 

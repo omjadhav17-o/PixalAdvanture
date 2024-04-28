@@ -5,10 +5,10 @@
     "fileStates": {
         "C:/Users/Om Jadhav/space_invader/assets/tiles/level-01.tmx": {
             "scale": 1.5,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 327.33333333333337,
-                "y": 138.99999999999997
+                "x": 323.99999999999994,
+                "y": 136.99999999999997
             }
         },
         "C:/Users/Om Jadhav/space_invader/assets/tiles/pixal adventure.tsx": {

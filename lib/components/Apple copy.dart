@@ -10,7 +10,7 @@ class Apple2 extends SpriteAnimationComponent
   final String fruit;
 
   Apple2({
-    this.fruit = 'apple1',
+    this.fruit = 'rubgy2',
     position,
     size,
   }) : super(
@@ -72,7 +72,7 @@ class Apple2 extends SpriteAnimationComponent
       position.x = 240.00;
       position.y = 48.00;
       animation = SpriteAnimation.fromFrameData(
-        game.images.fromCache('Items/Fruits/apple2.png'),
+        game.images.fromCache('Items/Fruits/rubgy2.png'),
         SpriteAnimationData.sequenced(
           amount: 1,
           stepTime: stepTime,

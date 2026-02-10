@@ -1,16 +1,42 @@
-# Pixal Adventure
+# PixalAdvanture – 2D Platformer Game 🎮
 
-A new Flutter project.
+**Tech Stack:** Flutter | Flame Engine | Dart  
 
-## Getting Started
+PixalAdvanture is a simple Mario-style 2D platformer game built using the Flutter Flame game engine. The game focuses on core platformer mechanics such as player movement, collision detection, object collection, and sprite-based animations.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🕹️ Player movement (left, right, jump)
+- 💥 Collision detection with obstacles and ground
+- 🪙 Collectible objects with score logic
+- 🧱 Basic physics and gravity
+- 🎞️ Sprite animations for characters
+- 🔁 Game loop using Flame engine
+- 📱 Cross-platform support (Android / iOS)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🎯 Gameplay
+
+- Control the character to move through the level  
+- Collect objects/coins to increase score  
+- Avoid obstacles and traps  
+- Smooth physics-based jumping and movement  
+
+---
+
+## 🧠 What I Implemented
+
+- Player component using Flame `SpriteComponent`
+- Hitbox-based **collision logic**
+- Object collection system  
+- Basic enemy/obstacle interaction  
+- Game world and camera handling  
+- Reusable component architecture  
+
+---
+
+## 🛠 Tech Architecture
+

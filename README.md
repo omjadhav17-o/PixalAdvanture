@@ -4,6 +4,10 @@
 
 PixalAdvanture is a simple Mario-style 2D platformer game built using the Flutter Flame game engine. The game focuses on core platformer mechanics such as player movement, collision detection, object collection, and sprite-based animations.
 
+<p align="center">
+  <img src="dashboard.jpeg" width="280">
+</p>
+
 ---
 
 ## 🚀 Features
